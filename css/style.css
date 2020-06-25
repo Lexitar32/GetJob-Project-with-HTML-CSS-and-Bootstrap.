@@ -45,7 +45,7 @@ body {
 
 /* MAIN SECTION STYLING */
 .main-content {
-  background-image: url(/img/main.jpg);
+  background-image: url(/img/main-4.jpg);
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
@@ -53,7 +53,7 @@ body {
 
 .content-title,
 .content-desc {
-  color: black;
+  color: white;
   opacity: 0.9;
 }
 
