@@ -75,7 +75,31 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-img {
+.section-1 img {
   max-width: 100px;
   max-height: 100px;
 }
+
+/* SECTION-2 */
+.section-2 {
+  margin-top: 5%;
+}
+
+.row-2 {
+  margin-top: 5%;
+}
+
+.heading-1 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.para-1 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card-title,
+.card-text {
+  font-weight: bold;
+}
+
+/* SECTION-3 */
