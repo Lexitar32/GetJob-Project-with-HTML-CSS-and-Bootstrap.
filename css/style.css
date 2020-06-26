@@ -148,3 +148,18 @@ body {
 .work {
   color: rgb(21, 214, 118);
 }
+
+/* FOOTER STYLING */
+footer {
+  overflow-y: hidden;
+}
+
+.subscribe {
+  font-weight: bold;
+}
+
+.lexitar {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}

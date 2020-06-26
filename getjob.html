@@ -97,7 +97,7 @@
           <img src="/img/trust-6.png" alt="IBM">
         </div>
       </div>
-    </div>
+    </div> <!-- CONTAINER ENDS -->
   </div> <!-- SECTION-1 ENDS -->
 
   <div class="section-2">
@@ -179,7 +179,7 @@
           <div class="card">
             <img src="/img/writing.jpg" alt="Writing" class="card-img-top">
             <div class="card-body">
-              <h4 class="card-title">Writing & Content Creation</h4>
+              <h4 class="card-title">Content Creation</h4>
               <p class="card-text">We Offer Jobs to people People with proficient skills
                 in Writing and in content creation for websites.
               </p>
@@ -238,11 +238,39 @@
           </div>
         </div>
 
-      </div>
+      </div> <!-- ROW ENDS -->
 
-    </div>
-  </div>
+    </div> <!-- CONTAINER ENDS -->
+  </div> <!-- SECTION-3 ENDS -->
 
+  <!-- FOOTER SECTION -->
+  <footer class="bg-secondary">
+    <div class="container-fluid">
+      <div class="section-4">
+        <h2 class="subscribe text-center mt-5 py-2">Subscribe to our newsletter</h2>
+
+        <div class="form-inline justify-content-center">
+          <input type="text" name="Email" id="email" placeholder="Email Address" size="40"
+            class="form-control px-4 py-2">
+          <input type="button" value="Contact Us" class="btn btn-success px-4 py-2">
+        </div>
+
+        <div class="social" style="margin:5%;">
+          <div class="d-flex flex-row justify-content-center">
+            <i class="fab fa-facebook m-2 fa-3x"></i>
+            <i class="fab fa-twitter m-2 fa-3x"></i>
+            <i class="fab fa-instagram m-2 fa-3x"></i>
+            <i class="fab fa-youtube m-2 fa-3x"></i>
+          </div>
+        </div>
+
+        <hr>
+
+        <h5 class="lexitar py-2">Lexitar Solutions International &copy; 2020.</h5>
+
+      </div> <!-- SECTION-4 ENDS -->
+    </div> <!-- CONTAINER ENDS -->
+  </footer> <!-- FOOTER ENDS -->
 
 
 
@@ -256,6 +284,18 @@
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script>
+    window.sr = ScrollReveal({
+      duration: 1000
+    });
+    sr.reveal('.main-content .d-flex');
+    sr.reveal('.section-1 .row');
+    sr.reveal('.section-2 .card');
+    sr.reveal('.section-3 .col-md-4');
   </script>
 </body>
 
