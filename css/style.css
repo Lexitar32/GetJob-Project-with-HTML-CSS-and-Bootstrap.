@@ -13,6 +13,10 @@ font-family: 'Ubuntu',
 sans-serif; */
 
 /* GLOBAL STYLING */
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -24,6 +28,7 @@ body {
   font-size: 35px;
   font-family: 'Ubuntu', sans-serif;
   color: rgb(21, 214, 118) !important;
+  margin-left: 4%;
 }
 
 .nav-link {
@@ -61,7 +66,6 @@ body {
   background-image: url(/img/main-4.jpg);
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
 }
 
 .content-title,
@@ -79,6 +83,7 @@ body {
 .content-desc {
   font-size: 18px;
   font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 40%;
 }
 
 /* SECTION-1 STYLING */
@@ -93,8 +98,8 @@ body {
 }
 
 .section-1 img {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 150px;
+  max-height: 150px;
 }
 
 /* SECTION-2 */
@@ -162,4 +167,118 @@ footer {
   font-size: 20px;
   text-align: center;
   font-weight: bold;
+}
+
+/* RESPONSIVENESS */
+
+/* LAPTOPS and WIDE SCREENS */
+@media screen and (max-width:800px) {
+
+  /* NAVBAR & MAIN-CONTENT */
+  .nav-link,
+  .login,
+  .sign-up {
+    font-size: 16px;
+  }
+
+  .main-content .d-flex .content-title {
+    margin-top: 12%;
+    font-size: 38px;
+  }
+
+  .content-desc {
+    margin-bottom: 80%;
+  }
+
+  /* SECTION-1 */
+  .section-1 .trust .comp {
+    font-size: 22px;
+  }
+
+  .section-1 img {
+    max-width: 105px;
+    max-height: 105px;
+  }
+
+  /* SECTION-2 */
+  .section-2 .heading-1 {
+    font-size: 22px;
+  }
+
+  .section-2 .para-1 {
+    font-size: 15px;
+  }
+
+  .section-2 .row .col-md-4 {
+    margin-bottom: 3%;
+  }
+
+  /* FOOTER */
+  .subscribe {
+    font-size: 20px;
+  }
+
+  .social i {
+    font-size: 20px;
+  }
+
+  .lexitar {
+    font-size: 16px;
+  }
+}
+
+/* SMALLER SCREEN */
+@media screen and (max-width:480px) {
+
+  /* NAVBAR AND MAIN-CONTENT */
+  .navbar-brand {
+    font-size: 25px;
+    margin-left: 0;
+  }
+
+  .nav-link,
+  .login,
+  .sign-up {
+    font-size: 15px;
+  }
+
+  .main-content .d-flex .content-title {
+    font-size: 23px;
+  }
+
+  .main-content .d-flex .content-desc {
+    font-size: 14px;
+  }
+
+  /* SECTION-1 */
+  .section-1 {
+    display: none;
+  }
+
+  /* SECTION-2 */
+  .heading-1 {
+    font-size: 21px;
+  }
+
+  .para-1 {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .section-2 .row .card-title {
+    font-size: 23px;
+  }
+
+  .section-3 .row .col-md-4 .para-2 {
+    font-size: 15px;
+  }
+
+  .heading-2,
+  .work {
+    font-size: 23px;
+  }
+
+  .section-3 .para-2 {
+    font-size: 16px;
+  }
 }
